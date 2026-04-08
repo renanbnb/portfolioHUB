@@ -2,32 +2,69 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolioHUB - Renan Braga</title>
 
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
             margin: 0;
-            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0f172a;
+            color: #e2e8f0;
         }
 
         header {
-            background-color: #1e293b;
-            color: white;
-            padding: 20px;
+            background: linear-gradient(90deg, #1e293b, #334155);
             text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #94a3b8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
         }
 
         section {
-            background: white;
-            margin: 20px;
+            background-color: #1e293b;
+            margin-bottom: 20px;
             padding: 20px;
-            border-radius: 10px;
+            border-radius: 12px;
         }
 
         h2 {
-            color: #1e293b;
+            color: #38bdf8;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .projeto {
+            background-color: #334155;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #94a3b8;
         }
     </style>
 </head>
@@ -36,26 +73,28 @@
 
 <header>
     <h1>Renan Benon Nogueira Braga</h1>
-    <p>Portfólio Profissional</p>
+    <p>Portfólio Profissional | Desenvolvedor em formação</p>
 </header>
+
+<div class="container">
 
 <section>
     <h2>Sobre mim</h2>
     <p>
-        Sou estudante de Análise e Desenvolvimento de Sistemas no CEUB.
+        Sou estudante de Análise e Desenvolvimento de Sistemas no CEUB, em Brasília.
         Tenho experiência em atendimento ao público, vendas e suporte administrativo.
-        Já tive experiência internacional em Malta, desenvolvendo inglês e adaptação profissional.
-        Busco crescer na área de tecnologia.
+        Também tive uma experiência internacional em Malta, desenvolvendo meu inglês
+        e minha capacidade de adaptação.
     </p>
 </section>
 
 <section>
-    <h2>Experiências</h2>
+    <h2>Experiência Profissional</h2>
     <ul>
-        <li>Assistente Administrativo - Restaurante Dadinda (2026 - Atual)</li>
-        <li>Atendente - Social Club (Malta, 2025)</li>
-        <li>Gerente de Vendas - Elite Lentes (2024 - 2025)</li>
-        <li>Atendente - Restaurante TST (2023 - 2024)</li>
+        <li><strong>Assistente Administrativo</strong> - Restaurante Dadinda (2026 - Atual)</li>
+        <li><strong>Atendente</strong> - Social Club (Malta, 2025)</li>
+        <li><strong>Gerente de Vendas</strong> - Elite Lentes (2024 - 2025)</li>
+        <li><strong>Atendente</strong> - Restaurante TST (2023 - 2024)</li>
     </ul>
 </section>
 
@@ -74,26 +113,32 @@
 <section>
     <h2>Projetos</h2>
 
-    <h3>portfolioHUB</h3>
-    <p>
-        Este é meu primeiro projeto na área de tecnologia, desenvolvido como parte da minha formação em Análise e Desenvolvimento de Sistemas.
-    </p>
+    <div class="projeto">
+        <h3>portfolioHUB</h3>
 
-    <p>
-        O projeto consiste na criação de um portfólio profissional digital utilizando HTML, Git e GitHub Pages.
-    </p>
+        <p>
+            Meu primeiro projeto na área de tecnologia, desenvolvido utilizando HTML, Git e GitHub Pages.
+        </p>
 
-    <p>Durante o desenvolvimento, aprendi:</p>
+        <p>
+            Neste projeto, aprendi a estruturar um site, publicar na internet e organizar
+            informações profissionais em formato digital.
+        </p>
 
-    <ul>
-        <li>Estrutura básica de HTML</li>
-        <li>Uso do GitHub</li>
-        <li>Publicação com GitHub Pages</li>
-        <li>Organização de conteúdo profissional</li>
-    </ul>
+        <ul>
+            <li>HTML básico</li>
+            <li>GitHub</li>
+            <li>Deploy com GitHub Pages</li>
+        </ul>
+    </div>
 
-    <p>Este projeto marca o início da minha jornada na área de desenvolvimento.</p>
 </section>
+
+</div>
+
+<footer>
+    <p>© 2026 - Renan Braga</p>
+</footer>
 
 </body>
 </html>
