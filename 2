@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Renan Braga | Desenvolvedor</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #020617;
+    color: #e2e8f0;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+    background: #020617;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(180deg, #020617, #0f172a);
+}
+
+.hero img {
+    width: 130px;
+    border-radius: 50%;
+    border: 3px solid #38bdf8;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero span {
+    color: #38bdf8;
+}
+
+.hero p {
+    margin-top: 10px;
+    color: #94a3b8;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: #38bdf8;
+    color: #020617;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.buttons a:hover {
+    background: #0ea5e9;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    gap: 20px;
+}
+
+/* CARDS */
+.card {
+    background: #0f172a;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #1e293b;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #38bdf8;
+}
+
+/* TITULOS */
+h2 {
+    color: #38bdf8;
+    margin-bottom: 15px;
+}
+
+/* PROJETOS */
+.project {
+    padding: 15px;
+    background: #020617;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #64748b;
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<a href="#sobre">Sobre</a>
+<a href="#skills">Skills</a>
+<a href="#projetos">Projetos</a>
+<a href="#contato">Contato</a>
+</nav>
+
+<section class="hero">
+<img src="https://via.placeholder.com/130" alt="foto">
+<h1>Renan <span>Braga</span></h1>
+<p>Desenvolvedor em formação</p>
+
+<div class="buttons">
+<a href="https://github.com/renanbnb" target="_blank">GitHub</a>
+<a href="#">LinkedIn</a>
+</div>
+</section>
+
+<div class="container">
+
+<div class="grid">
+
+<div class="card" id="sobre">
+<h2>Sobre mim</h2>
+<p>
+Estudante de ADS no CEUB, com experiência profissional e vivência internacional.
+Focado em desenvolvimento web e evolução constante na área de tecnologia.
+</p>
+</div>
+
+<div class="card" id="skills">
+<h2>Skills</h2>
+<p>HTML • CSS • Lógica • GitHub • Inglês</p>
+</div>
+
+<div class="card" id="projetos">
+<h2>Projetos</h2>
+
+<div class="project">
+<h3>portfolioHUB</h3>
+<p>Meu primeiro projeto web com HTML e GitHub Pages.</p>
+<a href="https://github.com/renanbnb" target="_blank">Ver no GitHub →</a>
+</div>
+
+</div>
+
+<div class="card" id="contato">
+<h2>Contato</h2>
+<p>Email: renanbnbraga@gmail.com</p>
+<p>Brasília - DF</p>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 - Renan Braga</p>
+</footer>
+
+</body>
+</html>
